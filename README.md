@@ -8,55 +8,6 @@ Here is the link to my conversation: https://chatgpt.com/share/6787c5b8-0fb0-800
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Overview</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            text-align: left;
-            padding: 8px;
-        }
-        th {
-            background-color: #f4f4f4;
-        }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(10, 1fr);
-            gap: 0px ;
-            margin: 10px auto;
-            width: 300px; /*This is dependent on .sq width/height * 10 */
-        }
-        .sq {
-            width: 30px;
-            height: 30px;
-            border: 1px solid #ddd;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 10px;
-        }
-        .mtn {
-            background-color: gray;
-        }
-        .fst {
-            background-color: green;
-        }
-        .pln {
-            background-color: wheat;
-        }
-        .player1, .player2, .player3, .player4 {
-            font-weight: bold;
-            color: white;
-            text-align: center;
-        }
-        .player1 { background-color: red; }
-        .player2 { background-color: blue; }
-        .player3 { background-color: yellow; color: black; }
-        .player4 { background-color: purple; }
-    </style>
 </head>
 <body>
 
