@@ -3,14 +3,6 @@ Here is the link to my conversation: https://chatgpt.com/share/6787c5b8-0fb0-800
 
  -->
 
-<!DOCTYPE html><html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Overview</title>
-</head>
-<body>
-
 <!-- <h1>Equipment</h1> -->
 <h1>Overview</h1>
 <p><strong>Objective:</strong> Your objective is to select one of the kingdoms. From there, you will go and attempt to conquer the rest of the map.</p>
@@ -95,120 +87,38 @@ Here is the link to my conversation: https://chatgpt.com/share/6787c5b8-0fb0-800
         </tr>
     </tbody>
 </table>
-<h1>Game Grid</h1>
-    <div class="grid">
-         <!-- Example 10x10 grid with sample starting positions -->
-    <div class="player1 sq">P1</div>
-    <div class="pln sq"></div>
-    <div class="pln sq"></div>
-    <div class="pln sq"></div>
-    <div class="pln sq"></div>
-    <div class="pln sq"></div>
-    <div class="pln sq"></div>
-    <div class="pln sq"></div>
-    <div class="pln sq"></div>
-    <div class="player2 sq">P2</div>
-    <!-- row 2 -->
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <!-- row 3 -->
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <div class="fst sq"></div>
-    <!-- row 4 -->
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <!-- row 5 -->
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <div class="fst sq"></div>
-    <!-- row 6 -->
-    <div class="fst sq"></div>
-    <div class="mtn sq"></div>
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <div class="pln sq"></div>
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <!-- row 7 -->
-    <div class="mtn sq"></div>
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <div class="fst sq"></div>
-    <!-- row 8 -->
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <div class="pln sq"></div>
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <!-- row 9 -->
-    <div class="pln sq"></div>
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <div class="pln sq"></div>
-    <div class="fst sq"></div>
-    <div class="mtn sq"></div>
-    <div class="fst sq"></div>
-    <!-- row 10 -->
-    <div class="player3 sq">P3</div>
-    <div class="mtn sq"></div>
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <div class="fst sq"></div>
-    <div class="pln sq"></div>
-    <div class="mtn sq"></div>
-    <div class="mtn sq"></div>
-    <div class="player4 sq">P4</div>
-    </div>
-</body>
-</html>
-
-
+<p>
+"[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+"[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+"[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+"[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+"[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+"[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+"[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+"[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+"[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+"[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+"[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+"[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+"[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+"[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+"[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+"[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+"[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+"[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+"[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+"[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+"\n" +
+"Scores:\n" +
+"Holy Empire = 0\n" +
+"Immortal Kingdom = 0\n" +
+"Goblins = 0\n" +
+"United Tribes = 0\n" +
+"\n" +
+"Resources: Actions / Wood\n" +
+"Holy Empire = 1 / 0 \n" +
+"Immortal Kingdom = 1 / 0 \n" +
+"Goblins = 1 / 0 \n" +
+"United Tribes = 1 / 0 \n" +
+"\n"
+</p>
