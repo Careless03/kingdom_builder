@@ -27,26 +27,25 @@ class Menu_Test extends AnyFunSpec with Matchers {
       ) {
         val expectedResult =
           "Conquer Area:\n" +
-            "[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
-            "[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
-            "[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
-            "[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
-            "[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
-            "[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
-            "[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
-            "[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
-            "[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
-            "[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
-            "[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
-            "[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
-            "[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
-            "[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
-            "[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
-            "[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
-            "[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
-            "[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
-            "[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
-            "[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\n" +
+            "[ HE ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ GC ]\n" +
+            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ FS ][ FS ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
+            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ FS ][ FS ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
+            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ MN ][ MN ][ MN ][ MN ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
+            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ MN ][ MN ][ MN ][ MN ][ MN ][ MN ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
+            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ MN ][ MN ][ MN ][ MN ][ MN ][ MN ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
+            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ MN ][ MN ][ MN ][ MN ][ MN ][ MN ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
+            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ MN ][ MN ][ MN ][ MN ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
+            "[ PL ][ FS ][ FS ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ FS ][ FS ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
+            "[ PL ][ PL ][ PL ][ PL ][ PL ][ FS ][ FS ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ FS ][ FS ][ PL ]\n" +
+            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
+            "[ PL ][ PL ][ PL ][ PL ][ PL ][ FS ][ FS ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ FS ][ FS ][ PL ][ PL ][ PL ][ PL ]\n" +
+            "[ PL ][ PL ][ PL ][ PL ][ FS ][ FS ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ FS ][ FS ][ PL ]\n" +
+            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ FS ][ FS ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
+            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
+            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
+            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
+            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
+            "[ IK ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ UT ]\n" +
             "\n" +
             "Scores:\n" +
             "Holy Empire = 0\n" +
@@ -55,10 +54,10 @@ class Menu_Test extends AnyFunSpec with Matchers {
             "United Tribes = 0\n" +
             "\n" +
             "Resources: Actions / Wood\n" +
-            "Holy Empire = 1 / 0 \n" +
-            "Immortal Kingdom = 1 / 0 \n" +
-            "Goblins Confederation = 1 / 0 \n" +
-            "United Tribes = 1 / 0 \n" +
+            "Holy Empire = 2 / 0 \n" +
+            "Immortal Kingdom = 2 / 0 \n" +
+            "Goblins Confederation = 2 / 0 \n" +
+            "United Tribes = 2 / 0 \n" +
             "\n"
         Menu.showGameArea should be(expectedResult)
       }
