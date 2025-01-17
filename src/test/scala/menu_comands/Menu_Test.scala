@@ -17,7 +17,7 @@ class Menu_Test extends AnyFunSpec with Matchers {
       // ******* ADVANCE ORDER *******
       it("can advance the player order") {
         val expectedResult =
-          "Holy Empire, Immortal Kingdom, Goblin Confederation, United Tribes"
+          "Immortal Kingdom, Goblin Confederation, United Tribes, Holy Empire"
         Menu.advancePlayerOrder should be(expectedResult)
       }
 
