@@ -14,9 +14,9 @@ Here is the link to my conversation: https://chatgpt.com/share/6787c5b8-0fb0-800
 
 <p><strong>Gameplay:</strong> On your turn, you’ll spend actions and/or wood to conquer adjacent squares, both claimed and unclaimed. Once conquered you can either develop your territory by building cities or harvesting the forest of the land. Cities increase the amount of actions you can take on your turn. Wood from cultivating your forest are utilized to take larger and more complex action.</p>
 
-<p><strong>Player Order:</strong> The Holy Empire will go first, followed by the Immortal Kingdom, Goblin Confederation, and the United Tribes.</p>
+<p><strong>Player Order:</strong> The Holy Empire (Yellow) will go first, followed by the Immortal Kingdom (Gray), Goblin Confederation (Green), and the United Tribes (Brown). The tiles owned by a respective kingdom will turn that color.</p>
 
-<p><strong>How to Win:</p> To win the game you can either earn the highest score by the end, or you can completely destroy the enemy. No matter what, there are only 30 rounds to do any structure.</p>
+<p><strong>How to Win:</p> To win the game you can either earn the highest score by the end, or you can completely destroy your enemies. No matter what, there are only 30 rounds to win.</p>
 
 Point Breakdown
 <ul>
@@ -40,7 +40,7 @@ Point Breakdown
         </tr>
         <tr>
             <td>Forest</td>
-            <td>Resource Terrain. These squares can be harvested for wood. You can tear it down and make it a pln Terrain for 3 wood, or you can harvest for 1 wood, leaving it as fst Terrain.</td>
+            <td>Resource Terrain. These squares can be harvested for wood. You can tear it down and make it a Plain Terrain for 3 wood, or you can harvest for 1 wood, leaving it as Forest Terrain.</td>
         </tr>
         <tr>
             <td>Plains</td>
@@ -62,39 +62,39 @@ Point Breakdown
     <tbody>
         <tr>
             <td>Claim</td>
-            <td>Claim a grid square that is touching your territory.</td>
+            <td>Claim a grid square that is touching your territory. It will transform the grid square to your kingdom's color</td>
             <td>1 Action</td>
             <td>0 Wood</td>
         </tr>
         <tr>
             <td>Harvest</td>
-            <td>Harvest a fst Terrain, converting it to a pln Terrain and gaining lots of wood.</td>
+            <td>Harvest a Forest Terrain, converting it to a Plain Terrain and gaining lots of wood.</td>
             <td>1 Action</td>
-            <td>-3 Wood</td>
+            <td>+3 Wood</td>
         </tr>
         <tr>
             <td>Cultivate</td>
-            <td>Cultivate a fst Terrain and gain a small amount of wood.</td>
+            <td>Cultivate a Forest Terrain and gain a small amount of wood.</td>
             <td>1 Action</td>
-            <td>-1 Wood</td>
+            <td>+1 Wood</td>
         </tr>
         <tr>
             <td>Build</td>
-            <td>Build a city on Plains Terrain. Grants the ability to conduct another action.</td>
+            <td>Build a city on Plain Terrain. Grants the ability to conduct another action.</td>
             <td>1 Action</td>
-            <td>3 Wood</td>
+            <td>-3 Wood</td>
         </tr>
         <tr>
             <td>Attack</td>
             <td>Take a piece of territory not belonging to you.</td>
             <td>1 Action</td>
-            <td>1 Wood</td>
+            <td>-1 Wood</td>
         </tr>
         <tr>
             <td>Destroy</td>
             <td>Destroy a city touching or in your territory.</td>
             <td>2 Actions</td>
-            <td>2 Wood</td>
+            <td>-2 Wood</td>
         </tr>
     </tbody>
 </table>

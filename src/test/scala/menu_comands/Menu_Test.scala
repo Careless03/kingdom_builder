@@ -7,8 +7,8 @@ class Menu_Test extends AnyFunSpec with Matchers {
   describe("Kingdom Conquest Simulation") {
     describe("Has a menu") {
 
-      // ******* SHOW PLAYER ORDER *******
-      it("can show the player order") {
+      // ******* SHOW __AYER ORDER *******
+      it("can show the __ayer order") {
         val expectedResult =
           "Holy Empire, Immortal Kingdom, Goblin Confederation, United Tribes"
         Menu.showPlayerOrder should be(expectedResult)
@@ -27,25 +27,25 @@ class Menu_Test extends AnyFunSpec with Matchers {
       ) {
         val expectedResult =
           "Conquer Area:\n" +
-            "[ HE ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ GC ]\n" +
-            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ FS ][ FS ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
-            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ FS ][ FS ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
-            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ MN ][ MN ][ MN ][ MN ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
-            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ MN ][ MN ][ MN ][ MN ][ MN ][ MN ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
-            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ MN ][ MN ][ MN ][ MN ][ MN ][ MN ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
-            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ MN ][ MN ][ MN ][ MN ][ MN ][ MN ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
-            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ MN ][ MN ][ MN ][ MN ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
-            "[ PL ][ FS ][ FS ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ FS ][ FS ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
-            "[ PL ][ PL ][ PL ][ PL ][ PL ][ FS ][ FS ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ FS ][ FS ][ PL ]\n" +
-            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
-            "[ PL ][ PL ][ PL ][ PL ][ PL ][ FS ][ FS ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ FS ][ FS ][ PL ][ PL ][ PL ][ PL ]\n" +
-            "[ PL ][ PL ][ PL ][ PL ][ FS ][ FS ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ FS ][ FS ][ PL ]\n" +
-            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ FS ][ FS ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
-            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
-            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
-            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
-            "[ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ]\n" +
-            "[ IK ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ PL ][ UT ]\n" +
+            "[ HE ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ GC ]\n" +
+            "[ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ $$ ][ $$ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ]\n" +
+            "[ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ $$ ][ $$ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ]\n" +
+            "[ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ MM ][ MM ][ MM ][ MM ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ]\n" +
+            "[ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ MM ][ MM ][ MM ][ MM ][ MM ][ MM ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ]\n" +
+            "[ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ MM ][ MM ][ MM ][ MM ][ MM ][ MM ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ]\n" +
+            "[ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ MM ][ MM ][ MM ][ MM ][ MM ][ MM ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ]\n" +
+            "[ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ MM ][ MM ][ MM ][ MM ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ]\n" +
+            "[ __ ][ $$ ][ $$ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ $$ ][ $$ ][ __ ][ __ ][ __ ][ __ ][ __ ]\n" +
+            "[ __ ][ __ ][ __ ][ __ ][ __ ][ $$ ][ $$ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ $$ ][ $$ ][ __ ]\n" +
+            "[ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ]\n" +
+            "[ __ ][ __ ][ __ ][ __ ][ __ ][ $$ ][ $$ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ $$ ][ $$ ][ __ ][ __ ][ __ ][ __ ]\n" +
+            "[ __ ][ __ ][ __ ][ __ ][ $$ ][ $$ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ $$ ][ $$ ][ __ ]\n" +
+            "[ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ $$ ][ $$ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ]\n" +
+            "[ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ]\n" +
+            "[ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ]\n" +
+            "[ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ]\n" +
+            "[ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ]\n" +
+            "[ IK ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ __ ][ UT ]\n" +
             "\n" +
             "Scores:\n" +
             "Holy Empire = 0\n" +
@@ -58,6 +58,12 @@ class Menu_Test extends AnyFunSpec with Matchers {
             "Immortal Kingdom = 2 / 0 \n" +
             "Goblins Confederation = 2 / 0 \n" +
             "United Tribes = 2 / 0 \n" +
+            "\n" +
+            "Legend:\n" +
+            "__ = Plain Tile\n" +
+            "$$ = Forest Tile\n" +
+            "MM = Mountain Tile\n" +
+            "O = City Tile\n" +
             "\n"
         Menu.showGameArea should be(expectedResult)
       }
